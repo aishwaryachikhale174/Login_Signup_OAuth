@@ -1,0 +1,120 @@
+/* Login.css */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid #ccc;
+     transition: all 0.3s ease;
+   
+
+  }
+
+  .container:hover {
+    transform: scale(1.02);
+}
+
+  
+  h1{
+    margin-top: 5px;
+    transition: color 0.3s ease;
+  }
+
+
+  .form-group {
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .show-password .password-input {
+    position: relative;
+    width: 93%;
+    transition: all 0.3s ease;
+  }
+  
+  .show-password input {
+    padding-right: 40px;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-password:hover {
+    color: #007bff;
+  }
+
+  .signbtn{
+    font-weight: 600;
+    color: green;
+    text-decoration: none;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    transform: 0.3s ease; 
+
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+
+.oauth-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.google-login-button {
+  margin-top: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.google-login-button:hover {
+  opacity: 0.8;
+}
